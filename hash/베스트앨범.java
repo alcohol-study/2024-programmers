@@ -40,7 +40,6 @@ public class 베스트앨범 {
             for(int j = 0; j < genres.length; j++){ //여기가 잘못 되엇다 -> count 새야함..!
                 if(genres[j].equals(keys.get(i))){ //장르 다 검색하면서 , pop이랑 같으면 1 4 이렇게 들어가야하는데..?
                     genreMap.put(j, plays[j]);
-                    System.out.println("j : " +j + "plays[j] : " + plays[j]);
                 }
             }
             //map에 1:600 4:2500 이렇게 저장되어 있을 것임.. 그러면 다시 정렬하기
