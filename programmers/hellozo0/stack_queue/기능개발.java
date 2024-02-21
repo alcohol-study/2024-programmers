@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Queue;
 
 public class 기능개발 {
-    import java.lang.Math;
-import java.util.*;
 
     class Solution {
         public int[] solution(int[] progresses, int[] speeds) {
