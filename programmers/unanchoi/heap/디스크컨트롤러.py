@@ -1,3 +1,4 @@
+
 import heapq
 
 def solution(jobs):
