@@ -8,12 +8,7 @@ class Solution {
 
         for(int i=0; i<citations.length; i++){
             h = citations[i];
-            count = 0;
-            for(int j=i; j<citations.length; j++){
-                if(h <= citations[j]){
-                    count++;
-                }
-            }
+            count = citations.length - i;
             if(h <= count){
                 answer = h;
             }
