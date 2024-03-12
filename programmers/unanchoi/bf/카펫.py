@@ -1,22 +1,13 @@
+def solution(brown, yellow):
+    answer = []
+    total_tiles = brown + yellow
 
-def solution(word: str):
-    
-    def loop(word: str):
-        for i in range(len(word)-1):
-            if word[0] == word[1]:
-                word = word[2:]
-            else:
-                word = word[1:] + word[0]
-        return word
-    
-    result = word
-    while True:
-        tmp = result
-        if result == "":
-            return 1
-        else:
-            result = loop(word)
+    for i in range(1, int((total_tiles)**(1/2))+4 ):
+        if float(total_tiles // i) * i  == float(total_tiles):
 
-        if tmp == result:
-            break
-    return 0
+            if (i-2)* 2 + (int(total_tiles/i)-2) * 2  == brown - 4:
+                if (i - 2) * (int(total_tiles/i)-2) == yellow:
+                    answer.append(int(total_tiles / i))
+                    answer.append(i)
+                    break 
+    return answer
