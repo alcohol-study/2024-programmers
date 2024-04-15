@@ -1,7 +1,6 @@
-package programmers.hellozo0.bf;
+package programmers.hellozo0.bruteforce_search;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 class Solution {
     public int solution(int[][] sizes) {
