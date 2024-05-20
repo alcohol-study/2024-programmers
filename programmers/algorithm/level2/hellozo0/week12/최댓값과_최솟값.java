@@ -1,4 +1,4 @@
-package programmers.hellozo0.week12;
+package programmers.algorithm.level2.hellozo0.week12;
 
 class Solution {
     public String solution(String s) {
