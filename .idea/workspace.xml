@@ -43,7 +43,8 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "22-2",
+
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/hongjunchung/Desktop/algorithm/2024-programmers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
