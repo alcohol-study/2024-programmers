@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="792a6c7b-1eb0-4b44-9b19-f983e3bd567e" name="변경" comment="" />
+    <list default="true" id="792a6c7b-1eb0-4b44-9b19-f983e3bd567e" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +45,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "21-4",
+    "git-widget-placeholder": "23-1",
     "last_opened_file_path": "/Users/hongjunchung/Desktop/algorithm/2024-programmers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -69,6 +71,7 @@
       <workItem from="1707749974837" duration="4111000" />
       <workItem from="1707934816350" duration="55671000" />
       <workItem from="1716451884006" duration="19222000" />
+      <workItem from="1723386780884" duration="394000" />
     </task>
     <servers />
   </component>
